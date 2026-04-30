@@ -1,0 +1,17 @@
+{
+  "name": "qa-analyst-take-home-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lightweight Playwright + TypeScript QA automation suite for a QA Analyst take-home assignment.",
+  "scripts": {
+    "test": "playwright test",
+    "test:frontend": "playwright test tests/frontend.spec.ts",
+    "test:api": "playwright test tests/api.spec.ts",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "typescript": "^5.8.0"
+  }
+}
