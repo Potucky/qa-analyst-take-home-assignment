@@ -18,6 +18,7 @@ The project uses Playwright with TypeScript.
 
 ## Project Structure
 
+```text
 qa-analyst-take-home-assignment/
 - tests/frontend/example.spec.ts
 - tests/api/employees.spec.ts
@@ -26,6 +27,9 @@ qa-analyst-take-home-assignment/
 - package.json
 - README.md
 - .github/workflows/playwright.yml
+```
+
+The Playwright configuration defines Chromium, Firefox, and WebKit projects.
 
 ## Frontend Test Coverage
 
@@ -64,24 +68,34 @@ For that reason, the API tests allow HTTP 429 as an acceptable response in some 
 
 ## How to Install
 
+```bash
 npm install
 npx playwright install
+```
 
 ## How to Run All Tests
 
+```bash
 npx playwright test
+```
 
 ## How to Run Frontend Tests Only
 
+```bash
 npx playwright test tests/frontend
+```
 
 ## How to Run API Tests Only
 
+```bash
 npx playwright test tests/api
+```
 
 ## How to View HTML Report
 
+```bash
 npx playwright show-report
+```
 
 ## QA Approach
 
