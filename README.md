@@ -41,10 +41,8 @@ Covered checks:
 
 - Page loads successfully
 - Page title is correct
-- Main heading is visible
 - Main paragraph text is visible
-- Learn more link is visible
-- Learn more link has the expected URL
+- Page states that the domain is not a service
 
 ## API Test Coverage
 
